@@ -1,0 +1,31 @@
+.caixa {
+  width: 600px;
+  height: 300px;
+  padding: 50px 50px 50px 15px;
+  background: #ffffff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(15, 90, 151, 0.699);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  animation: fadeIn 1.0s ease-in;
+}
+body {
+  display: flex;
+  background: #8bb3ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
